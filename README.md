@@ -1,6 +1,15 @@
 # DockerApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
+To build the Docker app run
+
+`docker build -t docker-app .`
+
+You can run the App using
+
+`docker run -it --rm -p 4200:4200 -v $PWD/src:/app/src docker-app`
+
+Alternatively follow the instructions below to run the built in Development
+server.
 
 ## Development server
 
